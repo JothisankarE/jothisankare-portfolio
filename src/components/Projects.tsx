@@ -32,7 +32,7 @@ const Projects = () => {
   ];
 
   return (
-    <section className="py-20">
+    <section id="projects" className="py-20">
       <div className="container mx-auto px-6">
         <h2 className="text-4xl md:text-5xl font-bold text-center mb-16 fade-in-up">
           Featured Projects

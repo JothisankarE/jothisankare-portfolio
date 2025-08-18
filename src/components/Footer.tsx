@@ -24,7 +24,7 @@ const Footer = () => {
   ];
 
   return (
-    <footer className="py-12 border-t border-primary/20 bg-card/30 backdrop-blur-sm">
+    <footer id="contact" className="py-12 border-t border-primary/20 bg-card/30 backdrop-blur-sm">
       <div className="container mx-auto px-6">
         {/* Social Links */}
         <div className="flex justify-center gap-4 mb-8">
