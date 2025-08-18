@@ -72,7 +72,7 @@ const Hero = () => {
               </Button>
               <Button variant="outline" size="lg" className="glow-hover">
                 <Phone className="mr-2 h-4 w-4" />
-                +91 9994843216
+                +91 9994634216
               </Button>
             </div>
           </div>
