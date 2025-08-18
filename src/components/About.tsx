@@ -23,6 +23,11 @@ const About = () => {
               </CardTitle>
             </CardHeader>
             <CardContent className="space-y-4">
+                <div>
+                <h3 className="font-semibold">MCA (Master of Computer Application)</h3>
+                <p className="text-sm text-muted-foreground">Kongu Engineering College, Erode</p>
+                <p className="text-sm text-accent">7.26-CGPA - 2025</p>
+              </div>
               <div>
                 <h3 className="font-semibold">Bachelor of Science in Computer Systems And Design</h3>
                 <p className="text-sm text-muted-foreground">Kongu Engineering College, Erode</p>
