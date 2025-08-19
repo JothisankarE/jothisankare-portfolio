@@ -60,12 +60,13 @@ const Hero = () => {
             about new and emerging trends in the IT sector.
           </p>
 
-          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-8"> <a 
+          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-8">
+            <Button size="lg" className="glow-hover">
+              <a 
     href="https://drive.google.com/file/d/10hNATligox4vCLZJ3LGCtfVQu9C9pMD7/view?usp=sharing" 
     target="_blank" 
     rel="noopener noreferrer"
   >
-            <Button size="lg" className="glow-hover">
               <Download className="mr-2 h-4 w-4" />
               Download Resume
             </Button>
