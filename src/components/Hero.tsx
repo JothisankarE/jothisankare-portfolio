@@ -60,11 +60,10 @@ const Hero = () => {
             about new and emerging trends in the IT sector.
           </p>
 
-         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-8">
+        <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-8">
   <a
     href="https://drive.google.com/file/d/10hNATligox4vCLZJ3LGCtfVQu9C9pMD7/view?usp=sharing"
-    target="_blank"
-    rel="noopener noreferrer"
+    download="Jothisankar_Resume.pdf"
     className="w-full sm:w-auto"
   >
     <Button size="lg" className="glow-hover w-full sm:w-auto">
@@ -73,6 +72,7 @@ const Hero = () => {
     </Button>
   </a>
 </div>
+
 
             <div className="flex gap-4">
               <Button variant="outline" size="lg" className="glow-hover">
