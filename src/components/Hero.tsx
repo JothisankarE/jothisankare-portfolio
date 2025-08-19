@@ -62,12 +62,11 @@ const Hero = () => {
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-8">
             <Button size="lg" className="glow-hover">
-              <a 
-    href="https://drive.google.com/file/d/10hNATligox4vCLZJ3LGCtfVQu9C9pMD7/view?usp=sharing" 
-    target="_blank" 
+   <a 
+    href="https://drive.google.com/file/d/10hNATligox4vCLZJ3LGCtfVQu9C9pMD7/view?usp=sharing"  // replace with your actual resume file path or external link
+    target="_blank"
     rel="noopener noreferrer"
-  >
-              <Download className="mr-2 h-4 w-4" />
+  >            <Download className="mr-2 h-4 w-4" />
               Download Resume
             </Button>
             <div className="flex gap-4">
