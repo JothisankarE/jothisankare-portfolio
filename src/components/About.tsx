@@ -48,24 +48,20 @@ const About = () => {
 
           {/* Skills */}
           <Card className="card-hover bg-card/50 backdrop-blur-sm border-primary/20">
-            <CardHeader>
-              <CardTitle className="flex items-center gap-2 text-primary">
-                <Code className="h-5 w-5" />
-                Technical Skills
-              </CardTitle>
-            </CardHeader>
-           <CardContent>
-       <ul className="list-disc list-inside space-y-2 text-gray-800">
-      {["HTML", "CSS", "Java", "ReactJS", "Figma"].map((skill, index) => (
-        <li 
-         key={index} 
-        className="flex items-center gap-2 text-base font-medium transition-transform hover:translate-x-2 hover:text-primary"
-      >
-      <span className="w-2 h-2 rounded-full bg-primary"></span>
-      {skill}
+            <CardContent>
+  <ul className="list-disc list-inside space-y-1 text-gray-700">
+    {["HTML", "CSS", "Java", "ReactJS", "Figma"].map((skill, index) => (
+      <li key={index} className="text-base font-medium">
+        {skill}
       </li>
     ))}
   </ul>
+
+  <div className="mt-4 flex justify-center">
+    <button className="px-4 py-2 rounded-lg bg-gray-100 text-gray-800 border border-gray-300 hover:bg-gray-200 transition-colors">
+      View More Skills
+    </button>
+  </div>
 </CardContent>
           {/* Areas of Interest */}
           <Card className="card-hover bg-card/50 backdrop-blur-sm border-primary/20">
