@@ -55,20 +55,15 @@ const About = () => {
               </CardTitle>
             </CardHeader>
             <CardContent>
-              <div className="flex flex-wrap gap-2">
-                {skills.map((skill, index) => (
-                  <Badge 
-                    key={index} 
-                    variant="secondary" 
-                    className="bg-primary/10 text-primary border-primary/20 hover:bg-primary/20 transition-colors"
-                  >
-                    {skill}
-                  </Badge>
-                ))}
-              </div>
-            </CardContent>
+  <ul className="list-disc list-inside space-y-1 text-gray-700">
+    {["HTML", "CSS", "Java", "ReactJS", "Figma"].map((skill, index) => (
+      <li key={index} className="text-base font-medium">
+        {skill}
+      </li>
+    ))}
+  </ul>
+</CardContent>
           </Card>
-
           {/* Areas of Interest */}
           <Card className="card-hover bg-card/50 backdrop-blur-sm border-primary/20">
             <CardHeader>
