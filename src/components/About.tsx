@@ -3,7 +3,7 @@ import { Badge } from "@/components/ui/badge";
 import { GraduationCap, Award, Code, Palette } from "lucide-react";
 
 const About = () => {
-  const skills = ["HTML", "CSS", "Java", "JavaScript", "React", "Node.js", "MongoDB", "Figma"];
+  const skills = ["HTML", "CSS", "Java", "Figma"];
   const interests = ["UI/UX Design (Figma)", "Web Development", "E-Commerce Solutions"];
 
   return (
