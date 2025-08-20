@@ -54,16 +54,19 @@ const About = () => {
                 Technical Skills
               </CardTitle>
             </CardHeader>
-            <CardContent>
-  <ul className="list-disc list-inside space-y-1 text-gray-700">
-    {["HTML", "CSS", "Java", "ReactJS", "Figma"].map((skill, index) => (
-      <li key={index} className="text-base font-medium">
-        {skill}
+           <CardContent>
+       <ul className="list-disc list-inside space-y-2 text-gray-800">
+      {["HTML", "CSS", "Java", "ReactJS", "Figma"].map((skill, index) => (
+        <li 
+         key={index} 
+        className="flex items-center gap-2 text-base font-medium transition-transform hover:translate-x-2 hover:text-primary"
+      >
+      <span className="w-2 h-2 rounded-full bg-primary"></span>
+      {skill}
       </li>
     ))}
   </ul>
 </CardContent>
-          </Card>
           {/* Areas of Interest */}
           <Card className="card-hover bg-card/50 backdrop-blur-sm border-primary/20">
             <CardHeader>
