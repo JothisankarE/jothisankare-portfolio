@@ -2,7 +2,6 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { ExternalLink, Github, Code, ShoppingCart, Database } from "lucide-react";
-
 const Projects = () => {
   const projects = [
     {
@@ -37,7 +36,6 @@ const Projects = () => {
         <h2 className="text-4xl md:text-5xl font-bold text-center mb-16 fade-in-up">
           Featured Projects
         </h2>
-        
         <div className="grid md:grid-cols-2 gap-8">
           {projects.map((project, index) => (
             <Card key={index} className="card-hover bg-card/50 backdrop-blur-sm border-primary/20 overflow-hidden group">
@@ -53,7 +51,6 @@ const Projects = () => {
                 <p className="text-muted-foreground leading-relaxed">
                   {project.description}
                 </p>
-                
                 <div className="space-y-3">
                   <h4 className="font-semibold text-primary">Key Features:</h4>
                   <ul className="space-y-2">
@@ -95,7 +92,6 @@ const Projects = () => {
             </Card>
           ))}
         </div>
-
         <div className="text-center mt-12">
           <Button size="lg" variant="outline" className="glow-hover">
             <Code className="mr-2 h-4 w-4" />
@@ -107,4 +103,4 @@ const Projects = () => {
   );
 };
 
-export default Projects;
+export default Projects;-
