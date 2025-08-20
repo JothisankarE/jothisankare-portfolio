@@ -47,6 +47,13 @@ const About = () => {
           </Card>
 
           {/* Skills */}
+           <Card className="card-hover bg-card/50 backdrop-blur-sm border-primary/20">
+            <CardHeader>
+              <CardTitle className="flex items-center gap-2 text-primary">
+                <Palette className="h-5 w-5" />
+                Technical Skills
+              </CardTitle>
+            </CardHeader>
           <CardContent>
               <div className="flex flex-wrap gap-2">
                 {skills.map((skill, index) => (
