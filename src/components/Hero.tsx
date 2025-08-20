@@ -19,7 +19,6 @@ const Hero = () => {
 
     return () => clearInterval(timer);
   }, []);
-
   return (
     <section id="hero" className="min-h-screen flex items-center justify-center relative overflow-hidden">
       {/* Particle Background */}
@@ -39,54 +38,48 @@ const Hero = () => {
           />
         ))}
       </div>
-
       <div className="container mx-auto px-6 text-center relative z-10">
         <div className="fade-in-up">
           <div className="hero-glow rounded-full w-32 h-32 mx-auto mb-8 flex items-center justify-center floating">
             <span className="text-4xl font-bold text-primary">JE</span>
           </div>
-          
           <h1 className="text-6xl md:text-8xl font-bold mb-4 bg-gradient-to-r from-primary via-accent to-primary bg-clip-text text-transparent">
             JOTHISANKAR E
           </h1>
           
           <div className="text-xl md:text-2xl text-muted-foreground mb-2 h-8">
             <span className="typing">{typedText}</span>
-          </div>
-          
+          </div>  
           <p className="text-lg text-muted-foreground mb-8 max-w-2xl mx-auto">
             Looking for a challenging role in a reputable organization to utilize my technical, 
             database, and management skills for organizational growth while enhancing my knowledge 
             about new and emerging trends in the IT sector.
           </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-8">
-            <a
-              href="https://drive.google.com/file/d/10hNATligox4vCLZJ3LGCtfVQu9C9pMD7/view?usp=sharing"
-              className="w-full sm:w-auto"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <Button size="lg" className="glow-hover w-full sm:w-auto">
-                <Download className="mr-2 h-4 w-4" />
-                Download Resume
-              </Button>
-            </a>
-          </div>
+          <div className="flex flex-col items-center justify-center gap-6 mb-8">
+  {/* Resume Button */}
+  <div className="w-full sm:w-auto">
+    <a
+      href="https://drive.google.com/file/d/10hNATligox4vCLZJ3LGCtfVQu9C9pMD7/view?usp=sharing"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="block"
+    >
+      <Button size="lg" className="glow-hover w-full sm:w-auto">
+        <Download className="mr-2 h-4 w-4" />
+        Download Resume
+      </Button>
+    </a>
+  </div>
 
-          <div className="flex gap-4">
-            <Button variant="outline" size="lg" className="glow-hover">
-              <Mail className="mr-2 h-4 w-4" />
-              jothisankar979@gmail.com
-            </Button>
-            <Button variant="outline" size="lg" className="glow-hover">
-              <Phone className="mr-2 h-4 w-4" />
-              +91 9994634216
-            </Button>
-          </div>
-        </div>
-      </div>
-    </section>
-  );
-};
-
-export default Hero;
+  {/* Contact Buttons */}
+  <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+    <Button variant="outline" size="lg" className="glow-hover w-full sm:w-auto">
+      <Mail className="mr-2 h-4 w-4" />
+      jothisankar979@gmail.com
+    </Button>
+    <Button variant="outline" size="lg" className="glow-hover w-full sm:w-auto">
+      <Phone className="mr-2 h-4 w-4" />
+      +91 9994634216
+    </Button>
+  </div>
+</div>
