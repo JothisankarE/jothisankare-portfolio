@@ -47,22 +47,19 @@ const About = () => {
           </Card>
 
           {/* Skills */}
-          <Card className="card-hover bg-card/50 backdrop-blur-sm border-primary/20">
-            <CardContent>
-  <ul className="list-disc list-inside space-y-1 text-gray-700">
-    {["HTML", "CSS", "Java", "ReactJS", "Figma"].map((skill, index) => (
-      <li key={index} className="text-base font-medium">
-        {skill}
-      </li>
-    ))}
-  </ul>
-
-  <div className="mt-4 flex justify-center">
-    <button className="px-4 py-2 rounded-lg bg-gray-100 text-gray-800 border border-gray-300 hover:bg-gray-200 transition-colors">
-      View More Skills
-    </button>
-  </div>
-</CardContent>
+          <CardContent>
+              <div className="flex flex-wrap gap-2">
+                {skills.map((skill, index) => (
+                  <Badge 
+                    key={index} 
+                    variant="secondary" 
+                    className="bg-primary/10 text-primary border-primary/20 hover:bg-primary/20 transition-colors"
+                  >
+                    {skill}
+                  </Badge>
+                ))}
+              </div>
+            </CardContent>
           {/* Areas of Interest */}
           <Card className="card-hover bg-card/50 backdrop-blur-sm border-primary/20">
             <CardHeader>
