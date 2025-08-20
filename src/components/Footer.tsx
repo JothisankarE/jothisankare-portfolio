@@ -61,8 +61,7 @@ const Footer = () => {
         {/* Copyright */}
         <div className="text-center pt-8 border-t border-primary/10">
           <p className="text-muted-foreground flex items-center justify-center gap-2">
-            © 2024 Jothisankar E. Made with 
-            and passion for technology
+           © 2025 Jothisankar E – Code. Design.Inspire.
           </p>
         </div>
 
