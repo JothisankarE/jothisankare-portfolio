@@ -6,13 +6,13 @@ const Footer = () => {
     {
       name: "GitHub",
       icon: <Github className="h-5 w-5" />,
-      href: "https://github.com/jothisankar",
+      href: "https://github.com/JothisankarE",
       color: "hover:text-foreground"
     },
     {
       name: "LinkedIn", 
       icon: <Linkedin className="h-5 w-5" />,
-      href: "https://linkedin.com/in/jothisankar",
+      href: "https://www.linkedin.com/in/jothi-sankar-8a272b359?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
       color: "hover:text-blue-400"
     },
     {
@@ -54,7 +54,7 @@ const Footer = () => {
               jothisankar979@gmail.com
             </a>
             <span className="hidden sm:block text-muted-foreground">•</span>
-            <span className="text-muted-foreground">+91 9994843216</span>
+            <span className="text-muted-foreground">+919994843216</span>
           </div>
         </div>
 
@@ -62,7 +62,6 @@ const Footer = () => {
         <div className="text-center pt-8 border-t border-primary/10">
           <p className="text-muted-foreground flex items-center justify-center gap-2">
             © 2024 Jothisankar E. Made with 
-            <Heart className="h-4 w-4 text-red-500 fill-current animate-pulse" />
             and passion for technology
           </p>
         </div>
