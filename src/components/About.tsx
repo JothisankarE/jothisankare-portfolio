@@ -45,7 +45,7 @@ const About = () => {
               </div>
             </CardContent>
           </Card>
-
+{/* Skills */}
           <Card className="card-hover bg-card/50 backdrop-blur-sm border-primary/20">
   <CardHeader>
     <CardTitle className="flex items-center gap-2 text-primary">
